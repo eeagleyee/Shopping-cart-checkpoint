@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title for the page -->
+    <title>The Joseph | Store</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="store.css" />
+  </head>
+
+  <body>
+    <!-- Main header section -->
+    <header class="main-header">
+      <!-- Large band name -->
+      <h1 class="band-name band-name-large">theJosephhStore</h1>
+    </header>
+
+    <!-- Section for displaying suits -->
+    <section class="container content-section">
+      <!-- Section header for suits -->
+      <h2 class="section-header">SUITS</h2>
+      <!-- Container for individual shop items -->
+      <div class="shop-items">
+        <!-- Individual shop item -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">Blue suit</span>
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/Blue suit.jpg" />
+          <!-- Item details -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦36,000</span>
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <!-- Individual shop item -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">Golden Brown Suits</span>
+
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/golden brown suits.jpg" />
+
+          <!-- Item details container -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦42,000</span>
+
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <!-- Section for displaying Navy Blue Suits -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">Navy Blue Suits</span>
+
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/Navy blue suits.jpg" />
+
+          <!-- Item details container -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦49,000</span>
+
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <!-- Section for displaying smart Boy Suit -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">smart Boy Suit</span>
+
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/smart boy suit.jpg" />
+
+          <!-- Item details container -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦35,000</span>
+
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Closing the previous section -->
+    </section>
+
+    <!-- Section for displaying POLO items -->
+    <section class="container content-section">
+      <!-- Section header for POLO items -->
+      <h2 class="section-header">POLO</h2>
+
+      <!-- Container for individual shop items -->
+      <div class="shop-items">
+        <!-- Individual shop item: Green Polo -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">Green Polo</span>
+
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/Green polo.jpg" />
+
+          <!-- Item details container -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦6,000</span>
+
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <!-- Individual shop item: Red Polo -->
+        <div class="shop-item">
+          <!-- Item title -->
+          <span class="shop-item-title">Red Polo</span>
+
+          <!-- Item image -->
+          <img class="shop-item-image" src="Images/Red polo.jpg" />
+
+          <!-- Item details container -->
+          <div class="shop-item-details">
+            <!-- Item price -->
+            <span class="shop-item-price">₦7,000</span>
+
+            <!-- Like button -->
+            <button class="like-btn">
+              <i class="fa-regular fa-heart" style="color: #323232"></i>
+            </button>
+
+            <!-- Add to cart button -->
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section for displaying the shopping cart -->
+    <section class="container content-section">
+      <!-- Header for the shopping cart section -->
+      <h2 class="section-header">CART</h2>
+
+      <!-- Row for cart item headers -->
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+
+      <!-- Container for displaying cart items -->
+      <div class="cart-items"></div>
+
+      <!-- Total price of the cart -->
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">₦0</span>
+      </div>
+
+      <!-- Button to make a purchase -->
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <!-- Band name in the footer -->
+        <h3 class="band-name">theJosephhStore</h3>
+      </div>
+    </footer>
+
+    <!-- Linking the external JavaScript file -->
+    <script
+      src="https://kit.fontawesome.com/2c0fef0123.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="store2.js" async></script>
+  </body>
+</html>
